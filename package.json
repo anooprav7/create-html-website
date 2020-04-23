@@ -1,6 +1,6 @@
 {
   "name": "create-html-website",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,6 @@
   },
   "keywords": [
     "create-html-website"
-  ],
-  "files": [
-    "index.js",
-    "config.js",
-    "template-files/*"
   ],
   "author": "anooprav7@gmail.com",
   "license": "MIT",
