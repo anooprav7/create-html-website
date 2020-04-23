@@ -1,0 +1,25 @@
+{
+  "name": "create-html-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "create-html-website": "./index.js"
+  },
+  "keywords": [
+    "create-html-website"
+  ],
+  "files": [
+    "index.js",
+    "config.js",
+    "template-files/*"
+  ],
+  "author": "anooprav7@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.0.0"
+  }
+}
