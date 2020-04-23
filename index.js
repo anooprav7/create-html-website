@@ -22,10 +22,7 @@ function addDependencies() {
 }
 
 function addTemplateFiles() {
-  // package.json
   const packageJson = generatePackageJson(folderName)
-  // const templateRoot = path.resolve("template-files")
-  // const templateRoot = require.resolve("./template-files/index.html")
 
   fs.writeFileSync(
     path.join(root, "package.json"),
@@ -37,9 +34,6 @@ function addTemplateFiles() {
   fs.writeFileSync(path.join(root, "styles.css"), "" + os.EOL)
   fs.writeFileSync(path.join(root, "index.js"), "" + os.EOL)
   fs.writeFileSync(path.join(root, ".gitignore"), "node_modules/" + os.EOL)
-
-  // copy template files
-  // fs.copySync(templateRoot, root)
 }
 
 function init() {
